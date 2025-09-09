@@ -1,6 +1,6 @@
 function generateNumber() {
     // Generate a random number between 1 and 100
-    var random = Math.floor(Math.random() * 6) + 1;
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('randomNumber').textContent = random;
 }
 
